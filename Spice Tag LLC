@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spice Tag - A Gorilla Tag Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="https://cdn.discordapp.com/attachments/1317730721254604830/1318006442871230464/IMG_1387.png?ex=6760c0a7&is=675f6f27&hm=576d61a86ba41111357a74658242d31df34f757ffc909077bf81fc6c81fdf6e6&"> <!-- Replace with your own logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Spice Tag!</h1>
+            <p>The ultimate VR tag game where you must run, jump, and tag others before they tag you!</p>
+            <a href="#download" class="btn-primary">Download Now</a>
+        </section>
+
+        <section id="about">
+            <h2>About the Game</h2>
+            <p>Spice Tag is a VR game inspired by Gorilla Tag. It's a fast-paced multiplayer game where players use their hands to move, tag others, and avoid being tagged. The objective? Don't get caught!</p>
+        </section>
+
+        <section id="features">
+            <h2>Game Features</h2>
+            <ul>
+                <li>Fast and Fun Movement</li>
+                <li>Multiplayer Mode</li>
+                <li>Easy to Learn, Hard to Master</li>
+                <li>Dynamic Arenas</li>
+            </ul>
+        </section>
+
+        <section id="download">
+            <h2>Download Spice Tag</h2>
+            <p>Get started by downloading Spice Tag for your VR headset. Available on Steam and Oculus Store.</p>
+            <a href="https://store.steampowered.com/" target="_blank" class="btn-primary">Download on Steam</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Got questions or feedback? Reach out to us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Spice Tag Studios. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
